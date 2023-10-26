@@ -1,0 +1,13 @@
+<?php
+function isEvenOrOdd($number) {
+    if ($number % 2 == 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
+
+$numberToCheck = 7; 
+$result = isEvenOrOdd($numberToCheck);
+echo "$numberToCheck is $result.";
+?>
